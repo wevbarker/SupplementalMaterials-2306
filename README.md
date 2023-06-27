@@ -1,5 +1,5 @@
 # Supplemental Materials to arXiv:2306:XXXXX
-W. E. V. Barker and S. Zell
+W. Barker and S. Zell
 
 ## About
 
@@ -16,10 +16,10 @@ These supplemental materials have been tested in the following environment(s):
 1. Make sure you have [installed xAct](http://www.xact.es/download.html).
 2. Download this repository:
 	```bash, git
-	git clone https://github.com/wevbarker/SupplementalMaterials-arXiv:2306.XXXXX
-	cd SupplementalMaterials-arXiv:2306.XXXXX
+	git clone https://github.com/wevbarker/SupplementalMaterials-2306
+	cd SupplementalMaterials-2306
 	```
-3. Place the contents of the `SupplementalMaterials-arXiv:2306.XXXXX/PackagesForMathematica_v13.2.0.0/xAct` directory (i.e. the three new packages HiGGS, GeoHiGGS and xPlain) relative to your xAct install. A global install might have ended up at: 
+3. Place the contents of the `SupplementalMaterials-2306/PackagesForMathematica_v13.2.0.0/xAct` directory (i.e. the three new packages HiGGS, GeoHiGGS and xPlain) relative to your xAct install. A global install might have ended up at: 
 	```bash
 	/usr/share/Mathematica/Applications/xAct
 	```

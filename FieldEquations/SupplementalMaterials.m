@@ -55,7 +55,7 @@ Comment@{"We can see that the rules in",Cref@"ToTheory"," are used to disable mo
 (*  Initial computations with HiGGS  *)
 (*===================================*)
 
-Manuscript@{"Note a point on conventions. The HiGGS infrastructure, and the computations in this supplement, is heavily dependent on the conventions of Blagojević. This includes the slightly unorthodox understanding that differentiation with respect to an antisymmetric tensor has twice the value which would usually be assumed by other sources. For example, within the supplement we take the partial derivative of",Inline@(A[i,j,-m]A[-i,-j,m])," with respect to",Inline@A[i,j,-m]," to be",Inline@(4A[-i,-j,m])". The conventions used in the body of the manuscript itself do not follow this rule, but would result instead in.",Inline@(4A[-i,-j,m])"."};
+Comment@{"Note a point on conventions. The HiGGS infrastructure, and the computations in this supplement, is heavily dependent on the conventions of Blagojević. This includes the slightly unorthodox understanding that differentiation with respect to an antisymmetric tensor has twice the value which would usually be assumed by other sources. For example, within the supplement we take the partial derivative of",Inline@(A[i,j,-m]A[-i,-j,m])," with respect to",Inline@A[i,j,-m]," to be",Inline@(4A[-i,-j,m])". The conventions used in the body of the manuscript itself do not follow this rule, but would result instead in.",Inline@(2A[-i,-j,m])"."};
 
 Get@FileNameJoin@{NotebookDirectory[],"SupplementalMaterials","GeneralisedMomenta.m"};
 Get@FileNameJoin@{NotebookDirectory[],"SupplementalMaterials","StressEnergyTensor.m"};
