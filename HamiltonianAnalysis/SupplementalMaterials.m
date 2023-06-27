@@ -3,6 +3,30 @@
 (*=========================*)
 
 <<xAct`xPlain`;
+(*
+StudyTheory[{{"ConstraintAlgebraAlp0Alp5Bet3cBet1cBet2",{Alp1==0,Alp2==0,Alp3==0,Alp4==0,Alp6==0,Bet1==0,Bet2==0,cBet3==0,cAlp1==0,cAlp2==0,cAlp3==0,cAlp4==0,cAlp5==0,cAlp6==0}}},Brackets->True,Velocities->False];
+*)
+(*
+StudyTheory[{{"ConstraintAlgebraAlp0Alp5Bet3cBet1cBet2",{Alp1==0,Alp2==0,Alp3==0,Alp4==0,Alp6==0,Bet1==0,Bet2==0,cBet3==0,cAlp1==0,cAlp2==0,cAlp3==0,cAlp4==0,cAlp5==0,cAlp6==0}}},Brackets->True,Velocities->False];
+*)
+(*
+StudyTheory[{{"ConstraintAlgebraAlp0Alp5cBet1cBet2",{Alp1==0,Alp2==0,Alp3==0,Alp4==0,Alp6==0,Bet1==0,Bet2==0,Bet3==0,cBet3==0,cAlp1==0,cAlp2==0,cAlp3==0,cAlp4==0,cAlp5==0,cAlp6==0}}},Brackets->True,Velocities->False];
+*)
+(*
+StudyTheory[{{"ConstraintAlgebraAlp0Alp5Bet1cBet2",{Alp1==0,Alp2==0,Alp3==0,Alp4==0,Alp6==0,Bet2==0,Bet3==0,cBet1==0,cBet3==0,cAlp1==0,cAlp2==0,cAlp3==0,cAlp4==0,cAlp5==0,cAlp6==0}}},Brackets->True,Velocities->False];
+*)
+(*
+StudyTheory[{{"ConstraintAlgebraAlp0Alp5cBet2",{Alp1==0,Alp2==0,Alp3==0,Alp4==0,Alp6==0,Bet1==0,Bet2==0,Bet3==0,cBet1==0,cBet3==0,cAlp1==0,cAlp2==0,cAlp3==0,cAlp4==0,cAlp5==0,cAlp6==0}}},Brackets->True,Velocities->False];
+*)
+(*
+StudyTheory[{{"ConstraintAlgebraAlp0Alp5Bet3",{Alp1==0,Alp2==0,Alp3==0,Alp4==0,Alp6==0,Bet1==0,Bet2==0,cBet1==0,cBet2==0,cBet3==0,cAlp1==0,cAlp2==0,cAlp3==0,cAlp4==0,cAlp5==0,cAlp6==0}}},Brackets->True,Velocities->False];
+*)
+(*
+StudyTheory[{{"ConstraintAlgebraAlp0Alp5Bet3cBet2",{Alp1==0,Alp2==0,Alp3==0,Alp4==0,Alp6==0,Bet1==0,Bet2==0,cBet1==0,cBet3==0,cAlp1==0,cAlp2==0,cAlp3==0,cAlp4==0,cAlp5==0,cAlp6==0}}},Brackets->True,Velocities->False];
+*)
+(*
+ViewTheory["ConstraintAlgebraAlp0Alp5cBet1cBet2",Brackets->True,Velocities->False];
+*)
 
 (*
 (*the bad case*)
@@ -23,7 +47,6 @@ Quit[];
 
 *)
 
-Mlabel@"Consistency":="9";
 Mlabel@"MasterLagrangian":="4";
 Mlabel@"Fig2":="Fig. 2";
 
@@ -60,7 +83,7 @@ Comment@{"Next, the Legendre-transformed Lagrangian is presented. This is broken
 
 Comment@{"Once the primary constraints are listed, the matrix",Inline@({ToExpression@"\[Phi]",ToExpression@"\[Phi]"})," of Poisson brackets between the primaries is computed. Of course, these brackets only need to be computed for the upper triangular part of the matrix. The resulting entries lie behind the red, white and yellow squares in the relevant panel of Fig. 3."};
 
-Comment@{"Finally, the velocities of these primaries",Inline@ToExpression@"\[Phi]"," are computed, i.e. their Poisson brackets with the super-Hamiltonian",Inline@xAct`HiGGS`SuperHamiltonian0p[],". These velocities serve two purposes; (i) they can be used to determine the `missing velocities' or `Hamiltonian multipliers'",Inline@ToExpression@"\[ScriptU]"," (not to be confused with the geometric multipliers",Inline@ToExpression@"\[Lambda]"," used in the manuscript), or (ii) they can define the secondary constraints of the theory. Whichever of these applies depends of course on",Inline@({ToExpression@"\[Phi]",ToExpression@"\[Phi]"}),", according to",Mref@"Consistency"," in our manuscript."};
+Comment@{"Finally, the velocities of these primaries",Inline@ToExpression@"\[Phi]"," are computed, i.e. their Poisson brackets with the super-Hamiltonian",Inline@xAct`HiGGS`SuperHamiltonian0p[],". These velocities serve two purposes; (i) they can be used to determine the `missing velocities' or `Hamiltonian multipliers'",Inline@ToExpression@"\[ScriptU]"," (not to be confused with the geometric multipliers",Inline@ToExpression@"\[Lambda]"," used in the manuscript), or (ii) they can define the secondary constraints of the theory. Whichever of these applies depends of course on",Inline@({ToExpression@"\[Phi]",ToExpression@"\[Phi]"}),", according to the consistency condition."};
 
 
 Subsection@"Lists of constraints and Poisson brackets from HiGGS";

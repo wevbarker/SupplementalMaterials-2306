@@ -4,15 +4,15 @@
 
 <<xAct`xPlain`;
 
-Mlabel@"KalbRamondDef":="5";
-Mlabel@"Perturbative":="6a";
-Mlabel@"ReducedNonlinearSpinEquation2":="6b";
-Mlabel@"ReducedNonlinearSpinEquation3":="6c";
-Mlabel@"SolveForMultiplier":="8a";
-Mlabel@"ImprovedSpinEquation2":="8b";
-Mlabel@"ImprovedSpinEquation3":="8c";
-Mlabel@"ReconstructedLagrangian":="9";
-Mlabel@"EffectiveKalbRamond":="8";
+Mlabel@"KalbRamondDef":="4";
+Mlabel@"Perturbative":="5a";
+Mlabel@"ReducedNonlinearSpinEquation2":="5b";
+Mlabel@"ReducedNonlinearSpinEquation3":="5c";
+Mlabel@"SolveForMultiplier":="7a";
+Mlabel@"ImprovedSpinEquation2":="7b";
+Mlabel@"ImprovedSpinEquation3":="7c";
+Mlabel@"ReconstructedLagrangian":="8";
+Mlabel@"EffectiveKalbRamond":="6";
 
 Title@"Supplemental materials: field equations";
 Section@"Introduction";
@@ -101,7 +101,7 @@ Comment@"Now we have set up some tools in the geometric, second-order formulatio
 (*  Examination of individual theories  *)
 (*======================================*)
 
-(*Get@FileNameJoin@{NotebookDirectory[],"SupplementalMaterials","StronglyCoupledCase/Run.m"};*)
+Get@FileNameJoin@{NotebookDirectory[],"SupplementalMaterials","StronglyCoupledCase/Run.m"};
 Get@FileNameJoin@{NotebookDirectory[],"SupplementalMaterials","NewGRWithVectorAndAxialVector/Run.m"};
 
 Comment@"This concludes the supplemental materials to our manuscript.";

@@ -13,7 +13,7 @@ NewGRWithVectorAndAxialVector[Expr_]:=Module[{CaseExpr},
 	CaseExpr=CaseExpr/.TLambdaSO13Activate;
 	CaseExpr//=ToGeoCanonical;
 CaseExpr];
-(**)
+(*
 Comment@"The full stress-energy equation.";
 StressEnergyEquation//=NewGRWithVectorAndAxialVector;
 DisplayEquation@StressEnergyEquation;
@@ -36,7 +36,7 @@ DisplayEquation@SpinEquation3;
 
 (FileNameJoin@{NotebookDirectory[],"SupplementalMaterials","StronglyCoupledCase/FieldEquations.mx"})~DumpSave~({StressEnergyEquation,SpinEquation,SpinEquation1,SpinEquation2,SpinEquation3});
 Quit[];
-(**)
+*)
 
 Get@FileNameJoin@{NotebookDirectory[],"SupplementalMaterials","StronglyCoupledCase/FieldEquations.mx"};
 

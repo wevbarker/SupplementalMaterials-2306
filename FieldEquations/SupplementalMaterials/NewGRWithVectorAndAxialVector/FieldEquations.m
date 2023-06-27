@@ -14,7 +14,7 @@ NewGRWithVectorAndAxialVector[Expr_]:=Module[{CaseExpr},
 	CaseExpr=CaseExpr/.SuppressTensorTorsion;
 	CaseExpr//=ToGeoCanonical;
 CaseExpr];
-(**)
+(*
 Comment@"The full stress-energy equation.";
 StressEnergyEquation//=NewGRWithVectorAndAxialVector;
 DisplayEquation@StressEnergyEquation;
@@ -37,7 +37,7 @@ DisplayEquation@SpinEquation3;
 
 (FileNameJoin@{NotebookDirectory[],"SupplementalMaterials","NewGRWithVectorAndAxialVector/FieldEquations.mx"})~DumpSave~({StressEnergyEquation,SpinEquation,SpinEquation1,SpinEquation2,SpinEquation3});
 Quit[];
-(**)
+*)
 
 Get@FileNameJoin@{NotebookDirectory[],"SupplementalMaterials","NewGRWithVectorAndAxialVector/FieldEquations.mx"};
 
