@@ -1,4 +1,4 @@
-# Supplemental Materials to arXiv:2306:XXXXX
+# Supplemental Materials to arXiv:2306:14953
 W. Barker and S. Zell
 
 ## About
