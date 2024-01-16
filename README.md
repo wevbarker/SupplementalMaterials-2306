@@ -1,9 +1,10 @@
-# Supplemental Materials to arXiv:2306:14953
+# Supplemental Materials to arXiv:2306:14953, i.e. Phys. Rev. D 109 2 024007 (2024)
+
 W. Barker and S. Zell
 
 ## About
 
-These materials are designed to supplement our manuscript. They provide complete, step-by-step derivations of the field equations, manipulation of these field equations to obtain our key results, and also our complete nonlinear Hamiltonian analyses.
+These materials are designed to supplement our paper. They provide complete, step-by-step derivations of the field equations, manipulation of these field equations to obtain our key results, also our complete nonlinear Hamiltonian analyses, and some comments on the very surprising consequences of using multipliers to kinematically restrict vector modes in the Einstein-Cartan formulation. Note that these materials are also available as official supplements to the published version Phys. Rev. D 109 2 024007 (2024) which has no appendices: in that version the supplements are prefaced with some LaTeX, which form the appendices to arXiv:2306:14953.
 
 ## Installation
 
@@ -26,7 +27,7 @@ These supplemental materials have been tested in the following environment(s):
 ## How to use 
 
 - You may decide to interact with the supplement at various levels. 
-- Having decided whether you wish to explore the Hamiltonian analysis or the field equations, you should pick a sub-directory accordingly. 
+- Having decided whether you wish to explore the Hamiltonian analysis or the field equations, or the multiplier interactions, you should pick a sub-directory accordingly. 
 - Then, you can read the `SupplementalMaterials.pdf` file. 
 - If you wish to reproduce the calculations, or if you find some problem with the formatting of the pdf (the Mathematica pdf export is not flawless), you can explore the `SupplementalMaterials.nb` notebook file. 
 - If you wish to re-run the notebook, then you can execute the single executable cell at the top, which reads:
